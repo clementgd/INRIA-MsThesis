@@ -1,0 +1,380 @@
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - CG Benchmark
+
+ Size:      150000
+ Iterations:                     75
+ Number of available threads:    64
+
+ Initialization time =           0.615 seconds
+
+   iteration           ||r||                 zeta
+        1       0.35322762302229E-12   109.9994423237398
+        2       0.80704933579806E-15    27.3920437146522
+        3       0.85391595160830E-15    28.0339761840269
+        4       0.87797674394626E-15    28.4191507551292
+        5       0.89369514488700E-15    28.6471670038896
+        6       0.89648383475268E-15    28.7812969418413
+        7       0.89995970379487E-15    28.8600458537346
+        8       0.90857473523719E-15    28.9063145572686
+        9       0.90953238341410E-15    28.9335649214617
+       10       0.91119489986123E-15    28.9496695448999
+       11       0.91153028710460E-15    28.9592263353752
+       12       0.90976725134190E-15    28.9649233484893
+       13       0.91010271788129E-15    28.9683359248931
+       14       0.91462873400104E-15    28.9703903960005
+       15       0.90633654530540E-15    28.9716336228372
+       16       0.91325478542067E-15    28.9723898600854
+       17       0.90899246695775E-15    28.9728522692228
+       18       0.91173596938128E-15    28.9731364797775
+       19       0.90637109520646E-15    28.9733120569287
+       20       0.91590580336344E-15    28.9734210663748
+       21       0.91630604474859E-15    28.9734890760554
+       22       0.91407320913539E-15    28.9735317064876
+       23       0.90885562447329E-15    28.9735585497254
+       24       0.91637542131225E-15    28.9735755256647
+       25       0.90895401089868E-15    28.9735863059384
+       26       0.90428028640674E-15    28.9735931787372
+       27       0.91526260196740E-15    28.9735975767372
+       28       0.91106102513337E-15    28.9736004009988
+       29       0.90784624487675E-15    28.9736022206773
+       30       0.90975286388942E-15    28.9736033967630
+       31       0.91279976127144E-15    28.9736041591151
+       32       0.90868540759858E-15    28.9736046546408
+       33       0.91390703171219E-15    28.9736049775619
+       34       0.91301905038684E-15    28.9736051885101
+       35       0.90982655155478E-15    28.9736053266249
+       36       0.90662385191543E-15    28.9736054172454
+       37       0.90660930761062E-15    28.9736054768225
+       38       0.90860868819919E-15    28.9736055160640
+       39       0.90656053248716E-15    28.9736055419568
+       40       0.90480273157509E-15    28.9736055590700
+       41       0.90965494951994E-15    28.9736055703980
+       42       0.90650176667789E-15    28.9736055779077
+       43       0.90972977371684E-15    28.9736055828932
+       44       0.90702365843476E-15    28.9736055862072
+       45       0.91084019183697E-15    28.9736055884128
+       46       0.90574557803229E-15    28.9736055898826
+       47       0.90622721115230E-15    28.9736055908629
+       48       0.90887539233659E-15    28.9736055915178
+       49       0.90557911980796E-15    28.9736055919555
+       50       0.90775710087725E-15    28.9736055922484
+       51       0.90588598311757E-15    28.9736055924446
+       52       0.90367617064946E-15    28.9736055925761
+       53       0.90420686664323E-15    28.9736055926643
+       54       0.90873121881193E-15    28.9736055927236
+       55       0.90348429205745E-15    28.9736055927634
+       56       0.90701582778132E-15    28.9736055927903
+       57       0.90270927417949E-15    28.9736055928082
+       58       0.90629256225046E-15    28.9736055928203
+       59       0.90438511827278E-15    28.9736055928285
+       60       0.90780475355513E-15    28.9736055928340
+       61       0.90747122415039E-15    28.9736055928377
+       62       0.90607708958423E-15    28.9736055928403
+       63       0.90775774875354E-15    28.9736055928420
+       64       0.90330640637522E-15    28.9736055928431
+       65       0.90789813721357E-15    28.9736055928439
+       66       0.91080093819098E-15    28.9736055928445
+       67       0.90658895264741E-15    28.9736055928448
+       68       0.90655960011220E-15    28.9736055928450
+       69       0.90965068147683E-15    28.9736055928452
+       70       0.90063077500895E-15    28.9736055928453
+       71       0.90911129187309E-15    28.9736055928454
+       72       0.90826783919998E-15    28.9736055928455
+       73       0.90361071285311E-15    28.9736055928455
+       74       0.90467697557450E-15    28.9736055928455
+       75       0.90133787822852E-15    28.9736055928455
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.2897360559285E+02
+ Error is    0.1777975066912E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                     9.80
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 14625.87
+ Mop/s/thread    =                   228.53
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              18 May 2024
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+# started on Sun May 19 10:06:21 2024
+
+{"cpu" : "0", "counter-value" : "21856787.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10432304905, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "1", "counter-value" : "48021288.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10432212065, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "2", "counter-value" : "30211186.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10432133112, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "3", "counter-value" : "38601771.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10432091521, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "4", "counter-value" : "41340396.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10432065858, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "5", "counter-value" : "38058806.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10432014171, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "6", "counter-value" : "29323383.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10431949956, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "7", "counter-value" : "27662619.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10431893337, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "8", "counter-value" : "34041147.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10431837205, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "9", "counter-value" : "34466635.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10431834284, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "10", "counter-value" : "33346053.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10431780654, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "11", "counter-value" : "39487165.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10431737386, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "12", "counter-value" : "32971049.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10431653533, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "13", "counter-value" : "35217711.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10431639674, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "14", "counter-value" : "38836443.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10431572922, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "15", "counter-value" : "33970661.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10431533666, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "16", "counter-value" : "25977946.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10431460834, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "17", "counter-value" : "37252850.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10431348322, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "18", "counter-value" : "31680480.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10431270255, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "19", "counter-value" : "33026845.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10431157017, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "20", "counter-value" : "37103076.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10431076018, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "21", "counter-value" : "35360300.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430972485, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "22", "counter-value" : "37749921.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430905988, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "23", "counter-value" : "36206635.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430855953, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "24", "counter-value" : "32544695.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430802303, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "25", "counter-value" : "36636777.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430821875, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "26", "counter-value" : "37798819.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430816173, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "27", "counter-value" : "32145140.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430804640, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "28", "counter-value" : "37483145.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430776657, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "29", "counter-value" : "38501930.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430756037, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "30", "counter-value" : "43764791.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430685578, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "31", "counter-value" : "29627198.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430664770, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "32", "counter-value" : "30472232.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430632211, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "33", "counter-value" : "39441271.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430580957, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "34", "counter-value" : "31199699.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430567120, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "35", "counter-value" : "48597075.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430511801, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "36", "counter-value" : "44912408.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430480216, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "37", "counter-value" : "38523379.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430464951, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "38", "counter-value" : "20144410.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430441070, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "39", "counter-value" : "29885730.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430414623, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "40", "counter-value" : "20698844.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430389622, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "41", "counter-value" : "36560178.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430386382, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "42", "counter-value" : "36671819.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430407994, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "43", "counter-value" : "30638607.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430393843, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "44", "counter-value" : "30779836.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430410226, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "45", "counter-value" : "44236394.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430396209, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "46", "counter-value" : "29788522.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430420736, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "47", "counter-value" : "27501775.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430418737, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "48", "counter-value" : "33182699.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430445999, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "49", "counter-value" : "34901778.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430463196, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "50", "counter-value" : "40298878.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430436055, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "51", "counter-value" : "34782047.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430409203, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "52", "counter-value" : "34337981.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430370928, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "53", "counter-value" : "23618121.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430357052, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "54", "counter-value" : "34312922.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430378056, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "55", "counter-value" : "41340077.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430416944, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "56", "counter-value" : "31876338.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430469731, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "57", "counter-value" : "31776037.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430457417, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "58", "counter-value" : "37802417.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430410607, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "59", "counter-value" : "28750790.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430326890, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "60", "counter-value" : "45786220.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430232857, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "61", "counter-value" : "37457381.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10430106803, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "62", "counter-value" : "42021178.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10429980539, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "63", "counter-value" : "38211562.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.local_dram", "event-runtime" : 10429898660, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "0", "counter-value" : "18146465.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10432298448, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "1", "counter-value" : "23706.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10432212762, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "2", "counter-value" : "10424686.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10432126014, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "3", "counter-value" : "5617861.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10432091610, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "4", "counter-value" : "5009951.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10432059436, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "5", "counter-value" : "7238138.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10432013705, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "6", "counter-value" : "11243307.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10431949539, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "7", "counter-value" : "14448453.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10431892893, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "8", "counter-value" : "6889882.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10431836587, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "9", "counter-value" : "9721790.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10431834067, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "10", "counter-value" : "7770605.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10431780207, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "11", "counter-value" : "5618747.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10431719985, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "12", "counter-value" : "11003166.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10431652930, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "13", "counter-value" : "8981385.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10431639551, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "14", "counter-value" : "5226847.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10431565711, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "15", "counter-value" : "8569333.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10431533451, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "16", "counter-value" : "13114586.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10431454372, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "17", "counter-value" : "7448171.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10431347464, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "18", "counter-value" : "10817903.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10431263432, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "19", "counter-value" : "10416259.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10431156196, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "20", "counter-value" : "7160502.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10431069083, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "21", "counter-value" : "6705858.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430972449, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "22", "counter-value" : "5695629.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430898538, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "23", "counter-value" : "7472474.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430856125, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "24", "counter-value" : "11723302.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430801819, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "25", "counter-value" : "8676351.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430826090, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "26", "counter-value" : "7778690.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430819620, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "27", "counter-value" : "11163252.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430808791, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "28", "counter-value" : "4614319.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430780368, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "29", "counter-value" : "6295394.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430753418, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "30", "counter-value" : "2963825.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430689192, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "31", "counter-value" : "12717542.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430668422, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "32", "counter-value" : "9819457.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430634027, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "33", "counter-value" : "5017177.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430576801, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "34", "counter-value" : "11106132.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430560256, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "35", "counter-value" : "5087.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430509140, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "36", "counter-value" : "2569655.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430477588, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "37", "counter-value" : "7513332.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430462185, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "38", "counter-value" : "18651107.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430438208, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "39", "counter-value" : "13437311.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430398424, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "40", "counter-value" : "18378222.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430387184, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "41", "counter-value" : "8248991.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430389920, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "42", "counter-value" : "5671934.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430405083, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "43", "counter-value" : "11397898.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430397887, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "44", "counter-value" : "10656561.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430407245, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "45", "counter-value" : "2416563.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430400644, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "46", "counter-value" : "11731127.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430417914, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "47", "counter-value" : "15400900.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430422597, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "48", "counter-value" : "9547794.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430449834, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "49", "counter-value" : "10360819.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430460530, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "50", "counter-value" : "5062263.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430433341, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "51", "counter-value" : "9383005.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430406328, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "52", "counter-value" : "10345714.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430368154, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "53", "counter-value" : "16042182.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430360712, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "54", "counter-value" : "8423943.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430374888, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "55", "counter-value" : "3940663.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430421553, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "56", "counter-value" : "10455970.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430466616, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "57", "counter-value" : "10218497.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430458038, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "58", "counter-value" : "6603220.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430407485, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "59", "counter-value" : "13718080.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430319920, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "60", "counter-value" : "14967.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430225822, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "61", "counter-value" : "7774818.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10430100084, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "62", "counter-value" : "3027554.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10429980091, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "63", "counter-value" : "5681782.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_dram", "event-runtime" : 10429892150, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "0", "counter-value" : "455461.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10432293561, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "1", "counter-value" : "450136.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10432212549, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "2", "counter-value" : "426605.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10432120413, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "3", "counter-value" : "432923.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10432091282, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "4", "counter-value" : "452175.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10432053359, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "5", "counter-value" : "423860.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10432013127, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "6", "counter-value" : "432376.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10431949216, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "7", "counter-value" : "448228.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10431892710, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "8", "counter-value" : "447749.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10431836572, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "9", "counter-value" : "437907.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10431833706, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "10", "counter-value" : "416607.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10431779778, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "11", "counter-value" : "421277.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10431719133, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "12", "counter-value" : "508378.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10431652578, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "13", "counter-value" : "423401.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10431639291, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "14", "counter-value" : "487358.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10431559944, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "15", "counter-value" : "450172.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10431533011, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "16", "counter-value" : "438125.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10431448559, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "17", "counter-value" : "438601.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10431346773, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "18", "counter-value" : "467386.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10431257323, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "19", "counter-value" : "393469.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10431155401, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "20", "counter-value" : "501773.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10431063577, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "21", "counter-value" : "425231.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430972386, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "22", "counter-value" : "477094.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430892471, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "23", "counter-value" : "460091.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430855697, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "24", "counter-value" : "455247.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430801725, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "25", "counter-value" : "415519.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430828310, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "26", "counter-value" : "461206.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430822042, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "27", "counter-value" : "390937.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430811321, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "28", "counter-value" : "480912.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430782364, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "29", "counter-value" : "372976.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430750143, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "30", "counter-value" : "477067.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430691450, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "31", "counter-value" : "433560.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430670991, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "32", "counter-value" : "438013.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430636064, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "33", "counter-value" : "423234.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430573397, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "34", "counter-value" : "456428.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430554417, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "35", "counter-value" : "419975.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430505842, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "36", "counter-value" : "456806.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430474488, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "37", "counter-value" : "438984.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430458927, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "38", "counter-value" : "444330.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430434743, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "39", "counter-value" : "440145.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430397743, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "40", "counter-value" : "430439.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430384034, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "41", "counter-value" : "423279.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430392041, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "42", "counter-value" : "455863.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430401941, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "43", "counter-value" : "424523.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430400171, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "44", "counter-value" : "462216.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430403911, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "45", "counter-value" : "418464.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430402988, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "46", "counter-value" : "452904.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430414447, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "47", "counter-value" : "454413.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430424487, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "48", "counter-value" : "472379.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430452195, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "49", "counter-value" : "436277.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430457317, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "50", "counter-value" : "471745.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430430064, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "51", "counter-value" : "419192.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430403208, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "52", "counter-value" : "444948.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430365231, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "53", "counter-value" : "422911.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430362937, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "54", "counter-value" : "434950.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430371688, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "55", "counter-value" : "432991.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430424021, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "56", "counter-value" : "478203.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430463507, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "57", "counter-value" : "432336.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430457553, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "58", "counter-value" : "446426.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430404463, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "59", "counter-value" : "403248.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430314025, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "60", "counter-value" : "427276.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430219944, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "61", "counter-value" : "473998.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10430094211, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "62", "counter-value" : "444771.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10429979759, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "63", "counter-value" : "432721.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_fwd", "event-runtime" : 10429886280, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "0", "counter-value" : "485443.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10432286617, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "1", "counter-value" : "483316.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10432211884, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "2", "counter-value" : "475652.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10432113439, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "3", "counter-value" : "518527.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10432090382, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "4", "counter-value" : "478975.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10432046501, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "5", "counter-value" : "463222.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10432012467, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "6", "counter-value" : "537953.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10431948405, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "7", "counter-value" : "453781.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10431892292, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "8", "counter-value" : "510594.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10431835671, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "9", "counter-value" : "494677.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10431832792, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "10", "counter-value" : "510050.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10431779425, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "11", "counter-value" : "556767.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10431718453, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "12", "counter-value" : "525926.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10431651809, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "13", "counter-value" : "523411.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10431638201, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "14", "counter-value" : "498363.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10431552982, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "15", "counter-value" : "485770.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10431532335, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "16", "counter-value" : "511568.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10431441572, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "17", "counter-value" : "499878.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10431345936, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "18", "counter-value" : "490064.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10431250375, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "19", "counter-value" : "564640.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10431142085, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "20", "counter-value" : "494993.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10431056393, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "21", "counter-value" : "474492.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430971614, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "22", "counter-value" : "424990.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430885439, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "23", "counter-value" : "440191.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430855175, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "24", "counter-value" : "508266.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430801210, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "25", "counter-value" : "525379.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430830050, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "26", "counter-value" : "529436.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430823977, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "27", "counter-value" : "476452.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430813127, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "28", "counter-value" : "507632.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430784242, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "29", "counter-value" : "505054.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430745486, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "30", "counter-value" : "485202.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430693332, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "31", "counter-value" : "476459.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430673004, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "32", "counter-value" : "503719.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430651204, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "33", "counter-value" : "441641.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430569040, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "34", "counter-value" : "540036.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430547387, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "35", "counter-value" : "515753.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430501485, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "36", "counter-value" : "503540.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430470043, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "37", "counter-value" : "545904.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430454871, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "38", "counter-value" : "493206.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430430602, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "39", "counter-value" : "472976.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430396677, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "40", "counter-value" : "512783.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430379849, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "41", "counter-value" : "492339.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430393719, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "42", "counter-value" : "455212.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430397647, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "43", "counter-value" : "510098.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430401982, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "44", "counter-value" : "461723.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430399359, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "45", "counter-value" : "476992.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430404837, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "46", "counter-value" : "513854.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430397525, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "47", "counter-value" : "494977.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430426408, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "48", "counter-value" : "468239.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430454194, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "49", "counter-value" : "492850.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430452802, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "50", "counter-value" : "508926.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430425600, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "51", "counter-value" : "521913.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430399070, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "52", "counter-value" : "476529.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430360848, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "53", "counter-value" : "487565.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430364872, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "54", "counter-value" : "510040.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430367360, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "55", "counter-value" : "500712.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430425907, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "56", "counter-value" : "499618.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430459061, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "57", "counter-value" : "534702.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430457000, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "58", "counter-value" : "486247.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430399702, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "59", "counter-value" : "493286.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430306765, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "60", "counter-value" : "546124.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430213167, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "61", "counter-value" : "492172.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10430087226, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "62", "counter-value" : "506354.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10429978792, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}
+{"cpu" : "63", "counter-value" : "502940.000000", "unit" : "", "event" : "mem_load_l3_miss_retired.remote_hitm", "event-runtime" : 10429879562, "pcnt-running" : 100.00, "metric-value" : 0.000000, "metric-unit" : "(null)"}

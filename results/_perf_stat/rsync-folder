@@ -1,0 +1,10 @@
+#!/bin/bash
+
+executable_name=rsync-folder
+
+if [ -z $1 ]; then
+    echo "Usage : $executable_name <folder>, e.g. $executable_name cg.C.dahu-18"
+    exit 1
+fi
+
+rsync -rvvhP grenoble.g5k:/home/cgachod/results/$1 .
